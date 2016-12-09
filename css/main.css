@@ -23,8 +23,13 @@ html {
   background-color: #ccc;
 }
 
+.heading:hover {
+  color: #000;
+}
+
 h1 {
   font-family: "Abril Fatface", cursive;
+  font-size: 3em;
 }
 
 .logo {
@@ -40,8 +45,9 @@ a {
   display: block;
 }
 
-li {
+ol {
   list-style-type: none;
+  text-decoration: none;
 }
 
 main {
@@ -57,6 +63,15 @@ small {
   text-align: center;
 }
 
+.gallary, .nav {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.btn, .name, .message {
+  margin-top: 1em;
+}
+
 @media only screen and (min-width: 60em) {
 
   span {
@@ -64,6 +79,10 @@ small {
     padding-left: 3em;
   }
 
+  h1 {
+    font-size: 4em;
+  }
+  
 }
 
 @media only screen and (min-width: 90em) {

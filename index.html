@@ -15,12 +15,12 @@
     <div class="heading relative">
       <img class="img-flex head-img" src="images/candy-worms.jpg" alt="">
       <div class="logo absolute">
-        <h1 class="logo-size">The Candy Bar</h1>
+        <h1 class="logo-size">Beau’s Bonbons</h1>
       </div>
     </div>
     <div class="nav">
       <nav>
-        <ul class="skip-links grid list-group-inline">
+        <ul class="grid list-group-inline">
           <li class="unit xs-1-3 s-1-3 m-1-3 l-1-3 island-1-4">
             <a href="#about" class="btn pad-b-1-4 gutter">
               <i class="icon i-32">
@@ -97,7 +97,10 @@
       <h2>Sweet on The Candy Bar</h2>
       <p>Since she was just a wee child, Paola dreamt of bringing joy to everyone she met. Those dreams came true in 2012 when she opened The Candy Bar; spreading the sugar high as far and wide as she could. Her infectious enthusiasm quickly won legions of converts, and her store is now the #1 stop for chocoholics, school kids, candy-fiends, UK expats and everyone on good terms with their sweet tooth.</p>
       <p>Paola gets so excited about all the special treats in her store that she hosts impromptu artisanal chocolate tastings, mid-day dance parties, and dares school kids to out-pucker each other with sour candies. New discoveries arrive daily––there's always a good reason to stop in and say hello!</p>
-      <h3>Paola is the CCO</h3>
+      <figure>
+        <img class="img-flex" src="images/paola.jpg" alt="">
+        <figcaption class="mega"><b>Paola is the CCO</b></figcaption>
+      </figure>
       <ul>
         <li>aka Chief Candy Officer</li>
         <li>aka Willa Wonka</li>
@@ -109,8 +112,8 @@
         <li>aka All treats, no tricks</li>
         <li>Candy heaven is just a quick call or email away...</li>
       </ul>
-      <p>416-532-0123</p>
-      <p>or</p>
+      <p class="push-0">416-532-0123</p>
+      <p class="push-0">or</p>
       <p>paola@thecandybar.ca</p>
     </section>
 
@@ -127,21 +130,14 @@
     <section id="contact">
       <div class="contact pad-t pad-b">
         <div class="wrapper">
-          <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
-          <p class="mega max-length gutter-1-2">What candy is on your mind?</p>
+          <h2 class="push-0 color-brand-dark">Contact</h2>
+          <p class="mega">What candy is on your mind?</p>
         </div>
-        <form class="grid" method="post">
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
-            <label class="push-1-8" for="name">Your name</label>
-            <input id="name" name="name">
-          </div>
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
-            <label class="push-1-8" for="email">E-mail address</label>
-            <input id="email" type="email">
-          </div>
-          <div class="unit xs-1 text-center">
-            <button class="btn mega" type="submit">Send</button>
-          </div>
+        <form method="POST" action="http://formspree.io/moiram2314@gmail.com">
+          <input type="email" name="email" placeholder="Your email">
+          <textarea class="name" id="name" name="name" placeholder="Your Name"></textarea>
+          <textarea class="message" name="message" placeholder="Your message"></textarea>
+          <button class="btn" type="submit">Send</button>
         </form>
       </div>
 
