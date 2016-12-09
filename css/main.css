@@ -10,4 +10,65 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  top: 50;
+  left: 20;
+  font-size: 3em;
+}
+
+.head_img {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding-left: 2em;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  padding-left: 2em;
+}
+
+small {
+  font-size: .5em;
+  padding-left: .7em;
+}
+
+.masthead {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  span {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  h1 {
+    top: 300;
+    left: 200;
+  }
+
 }
