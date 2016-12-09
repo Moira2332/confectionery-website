@@ -18,16 +18,18 @@ html {
   font-family: "Open San", sans-serif;
 }
 
-h1 {
-  font-family: "Abril Fatface", cursive;
-  position: absolute;
-  top: 50em;
-  left: 20em;
-  font-size: 3em;
+.heading {
+  background-image: url("candy-worms.jpg");
+  background-color: #ccc;
 }
 
-.head-img {
-  position: relative;
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+.logo {
+  left: 1em;
+  top: 50%;
 }
 
 a {

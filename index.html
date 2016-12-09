@@ -12,9 +12,11 @@
 </head>
 <body>
   <header class="masthead" role="banner">
-    <div class="heading">
+    <div class="heading relative">
       <img class="img-flex head-img" src="images/candy-worms.jpg" alt="">
-      <h1>The Candy Bar</h1>
+      <div class="logo absolute">
+        <h1 class="logo-size">The Candy Bar</h1>
+      </div>
     </div>
     <div class="nav">
       <nav>
@@ -131,7 +133,7 @@
         <form class="grid" method="post">
           <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
             <label class="push-1-8" for="name">Your name</label>
-            <input id="name">
+            <input id="name" name="name">
           </div>
           <div class="unit [ xs-1 s-1 m-1 l-1 ] push gutter-1-2">
             <label class="push-1-8" for="email">E-mail address</label>
