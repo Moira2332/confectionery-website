@@ -15,11 +15,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open San", sans-serif;
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   position: absolute;
   top: 50em;
   left: 20em;
