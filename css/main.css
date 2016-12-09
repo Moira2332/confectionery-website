@@ -21,8 +21,8 @@ html {
 h1 {
   font-family: 'Abril Fatface', cursive;
   position: absolute;
-  top: 50;
-  left: 20;
+  top: 50em;
+  left: 20em;
   font-size: 3em;
 }
 
@@ -67,8 +67,8 @@ small {
 @media only screen and (min-width: 90em) {
 
   h1 {
-    top: 300;
-    left: 200;
+    top: 300em;
+    left: 200em;
   }
 
 }
