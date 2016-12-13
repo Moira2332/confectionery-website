@@ -12,9 +12,8 @@
 </head>
 <body>
   <header class="masthead" role="banner">
-    <div class="heading relative">
-      <img class="img-flex head-img" src="images/candy-worms.jpg" alt="">
-      <div class="logo absolute">
+    <div class="heading">
+      <div class="logo">
         <h1 class="logo-size">Beau’s Bonbons</h1>
       </div>
     </div>
@@ -53,7 +52,7 @@
   <article class="gallary">
     <section id="gallary">
       <div class="grid">
-        <figure class="unit xs-1-2 s-1 m-1 l-1 relative push-0">
+        <figure class="hidden unit xs-1-2 s-1 m-1 l-1 relative push-0">
           <div class="embed embed-16by9">
             <img class="embed-item" src="images/wall.jpg" alt="">
           </div>
@@ -92,16 +91,19 @@
       </div>
     </section>
   </article>
-  <main role="main">
-    <section id="about">
-      <h2>Sweet on The Candy Bar</h2>
-      <p>Since she was just a wee child, Paola dreamt of bringing joy to everyone she met. Those dreams came true in 2012 when she opened The Candy Bar; spreading the sugar high as far and wide as she could. Her infectious enthusiasm quickly won legions of converts, and her store is now the #1 stop for chocoholics, school kids, candy-fiends, UK expats and everyone on good terms with their sweet tooth.</p>
-      <p>Paola gets so excited about all the special treats in her store that she hosts impromptu artisanal chocolate tastings, mid-day dance parties, and dares school kids to out-pucker each other with sour candies. New discoveries arrive daily––there's always a good reason to stop in and say hello!</p>
-      <figure>
+  <main class="grid text-center" role="main">
+    <section class="about max-width unit xs-1 s-1 m-1 l-1" id="about">
+      <h2>Whats Sweet at Beau’s Bonbons</h2>
+      <p>Since she was just a wee child, Lilli dreamt of bringing joy to everyone she met. Those dreams came true in 2012 when she opened Beau’s Bonbons; spreading the sugar high as far and wide as she could. Her infectious enthusiasm quickly won legions of converts, and her store is now the #1 stop for school kids, candy-fiends and everyone on good terms with their sweet tooth.</p>
+      <p>Lilli gets so excited about all the special treats in her store that she hosts impromptu artisanal candy tastings, mid-day dance parties, and dares school kids to out-pucker each other with sour candies. New discoveries arrive daily––there's always a good reason to stop in and say hello!</p>
+    </section>
+
+    <section class="more-info unit xs-1 s-1 m-1 l-1" id="more-info">
+      <figure >
         <img class="img-flex" src="images/paola.jpg" alt="">
-        <figcaption class="mega"><b>Paola is the CCO</b></figcaption>
+        <figcaption class="mega"><b>Lilli is the CCO</b></figcaption>
       </figure>
-      <ul>
+      <ul class="list-group">
         <li>aka Chief Candy Officer</li>
         <li>aka Willa Wonka</li>
         <li>aka Sugar Pusher</li>
@@ -114,28 +116,30 @@
       </ul>
       <p class="push-0">416-532-0123</p>
       <p class="push-0">or</p>
-      <p>paola@thecandybar.ca</p>
+      <p>lilli@thecandybar.ca</p>
     </section>
 
-    <section id="location">
+    <section class="location unit xs-1 s-1 m-1 l-1" id="location">
       <h2>Location</h2>
-      <p>849 College Street <b>Toronto, ON</b> M6H 1A1</p>
-      <ol>
+      <p>849 College Street <b>Ottawa, ON</b> K2E 7J8</p>
+      <ol class="list-group">
         <li>Sun: 11-6</li>
         <li>Mon-Wed: 12-8</li>
         <li>Thu-Sat: 11-9</li>
       </ol>
     </section>
 
-    <section id="contact">
-      <div class="contact pad-t pad-b">
-        <div class="wrapper">
-          <h2 class="push-0 color-brand-dark">Contact</h2>
+    <section class="contact unit xs-1 s-1 m-1 l-1" id="contact">
+      <div class="contact pad-b gutter-2">
+        <div>
+          <h2 class="push-0">Contact</h2>
           <p class="mega">What candy is on your mind?</p>
         </div>
         <form method="POST" action="http://formspree.io/moiram2314@gmail.com">
           <input type="email" name="email" placeholder="Your email">
+          <label for="name"> </label>
           <textarea class="name" id="name" name="name" placeholder="Your Name"></textarea>
+          <label for="message"> </label>
           <textarea class="message" name="message" placeholder="Your message"></textarea>
           <button class="btn" type="submit">Send</button>
         </form>

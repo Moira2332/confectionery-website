@@ -8,6 +8,10 @@ html {
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 
@@ -18,18 +22,26 @@ html {
   font-family: "Open San", sans-serif;
 }
 
-.heading {
+.nav {
   background-image: url("candy-worms.jpg");
-  background-color: #ccc;
+  background-color: #ed9ada;
+  color: #fff;
 }
 
-.heading:hover {
-  color: #000;
+.nav:hover {
+  color: #e04e5c;
 }
 
 h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 3em;
+  margin: 1em;
+  padding: 1em;
+  color: #fff;
+}
+
+.heading {
+  background-color: #ed9ada;
 }
 
 .logo {
@@ -52,6 +64,7 @@ ol {
 
 main {
   padding-left: 2em;
+
 }
 
 small {
@@ -72,6 +85,18 @@ small {
   margin-top: 1em;
 }
 
+.about, .more-info, .location, main {
+  background-color: #adedfb;
+}
+
+.about {
+  margin: 0 auto;
+}
+
+.btn:hover {
+  border-color: #e04e5c;
+}
+
 @media only screen and (min-width: 60em) {
 
   span {
@@ -82,7 +107,10 @@ small {
   h1 {
     font-size: 4em;
   }
-  
+
+  .max-width {
+    max-width: 900px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -90,6 +118,14 @@ small {
   h1 {
     top: 300em;
     left: 200em;
+  }
+
+  .max-width {
+    max-width: 10000px;
+  }
+
+  .img {
+    display: none;
   }
 
 }
