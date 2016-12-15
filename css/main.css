@@ -23,9 +23,7 @@ li {
 }
 
 .nav {
-  background-image: url("candy-worms.jpg");
-  background-color: #ed9ada;
-  color: #fff;
+  background-image: url("treat-4.svg");
 }
 
 .nav:hover {
