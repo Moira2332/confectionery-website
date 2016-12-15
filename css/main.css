@@ -25,7 +25,6 @@ li {
 .nav {
   background-image: url("../images/treat-4.svg");
   background-size: 80px;
-  opacity: 30%;
 }
 
 .nav:hover {
@@ -74,7 +73,7 @@ small {
   text-align: center;
 }
 
-.gallary, {
+.gallary {
   padding-top: 2em;
   padding-bottom: 2em;
 }
